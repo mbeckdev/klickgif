@@ -1,0 +1,275 @@
+.confused-cow {
+  position: relative;
+  --confused-cow__skin--white: rgb(221, 220, 220);
+  --confused-cow__eye__background: rgb(255, 255, 255);
+  --confused-cow__torso__white: rgb(233, 233, 233);
+  height: 150px;
+  width: 150px;
+}
+
+/* BACKGROUND */
+.confused-cow__background {
+  z-index: -4;
+  position: absolute;
+  background-color: green;
+}
+.confused-cow__background__grass {
+  height: 70%;
+  top: 0;
+  width: 100%;
+  background-color: lightblue;
+  position: absolute;
+}
+.confused-cow__background__sky {
+  height: 150px;
+  width: 150px;
+}
+
+/* COW */
+.confused-cow__body {
+  position: relative;
+  top: 70px;
+  left: 40px;
+}
+
+/* COW TORSO */
+.confused-cow__body__torso {
+  height: 50px;
+  width: 100px;
+  background-color: var(--confused-cow__torso__white);
+  border-radius: 10px;
+  position: absolute;
+}
+
+.confused-cow__body__torso__tail {
+  height: 8px;
+  width: 15px;
+  position: absolute;
+  top: -0px;
+  right: -8px;
+  transform: rotate(110deg);
+
+  background-color: var(--confused-cow__torso__white);
+  border-radius: 10px;
+}
+.confused-cow__body__torso__blob1 {
+  height: 15px;
+  width: 20px;
+  position: absolute;
+  bottom: 5px;
+  right: 2px;
+
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+.confused-cow__body__torso__blob2 {
+  height: 15px;
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  /* transform: rotate(70deg); */
+
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+.confused-cow__body__torso__blob3 {
+  height: 15px;
+  width: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+
+/* COW LEGS */
+.confused-cow__body__leg1 {
+  top: 45px;
+  left: 10px;
+}
+
+.confused-cow__body__leg2 {
+  top: 45px;
+  left: 25px;
+}
+
+.confused-cow__body__leg3 {
+  top: 45px;
+  left: 65px;
+}
+.confused-cow__body__leg4 {
+  top: 45px;
+  left: 80px;
+}
+
+.confused-cow__body__leg {
+  height: 20px;
+  width: 8px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  position: absolute;
+  z-index: -1;
+}
+
+/* COW HEAD */
+.confused-cow__body__head {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  position: relative;
+  top: -40px;
+  left: -0px;
+  animation-name: confused-cow__body__head--twist;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom center;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.confused-cow__body__head__background {
+  height: 70px;
+  width: 70px;
+  background-color: var(--confused-cow__skin--white);
+  border-radius: 10px;
+  position: relative;
+  top: -0px;
+  left: -0px;
+  z-index: -4;
+}
+
+/* COW FACE */
+.confused-cow__body__head__snout {
+  height: 30px;
+  width: 80px;
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+
+  background-color: pink;
+  border-radius: 10px;
+}
+.confused-cow__body__head__snout__nostril1 {
+  top: 40%;
+  left: 10px;
+}
+.confused-cow__body__head__snout__nostril2 {
+  top: 40%;
+  left: 60px;
+}
+.confused-cow__body__head__snout__nostril {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+
+  background-color: rgb(24, 18, 19);
+  border-radius: 10px;
+}
+
+/* COW EYES */
+.confused-cow__body__head__eye {
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  top: 12px;
+
+  background-color: var(--confused-cow__eye__background);
+  border-radius: 50px;
+}
+.confused-cow__body__head__eye--left {
+  left: 10px;
+}
+.confused-cow__body__head__eye--right {
+  left: 40px;
+}
+.confused-cow__body__head__eye__pupil {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 10px;
+  left: 3px;
+
+  background-color: rgb(16, 13, 34);
+  border-radius: 50px;
+}
+
+.confused-cow__body__head__eye__lid--bottom {
+  height: 12px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+
+  background-color: var(--confused-cow__skin--white);
+  border-radius: 50px;
+}
+
+/* COW EYEBROWS */
+.confused-cow__body__head__eyebrow--left {
+  height: 10px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: rotate(-10deg);
+
+  background-color: rgb(17, 17, 17);
+  border-radius: 50px;
+}
+.confused-cow__body__head__eyebrow--right {
+  height: 10px;
+  width: 30px;
+  position: absolute;
+  top: -5px;
+  left: 35px;
+  transform: rotate(35deg);
+
+  background-color: rgb(17, 17, 17);
+  border-radius: 50px;
+}
+
+/* COW EARS */
+.confused-cow__body__head__ears1 {
+  /* z-index: -1; */
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  /* transform: rotate(45deg); */
+
+  background-color: rgb(27, 26, 26);
+  border-radius: 10px;
+  z-index: -10000;
+}
+.confused-cow__body__head__ears2 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  /* transform: rotate(45deg); */
+
+  background-color: var(--confused-cow__skin--white);
+  border-radius: 10px;
+}
+
+/* ANIMATION */
+@keyframes confused-cow__body__head--twist {
+  0% {
+    transform: rotate(-30deg);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(30deg);
+  }
+  100% {
+    /* top: 0px; */
+    transform: rotate(-30deg);
+  }
+}
