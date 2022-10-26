@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/klickgif/static/css/main.529fda06.css",
+    "main.js": "/klickgif/static/js/main.79549bda.js",
+    "index.html": "/klickgif/index.html",
+    "main.529fda06.css.map": "/klickgif/static/css/main.529fda06.css.map",
+    "main.79549bda.js.map": "/klickgif/static/js/main.79549bda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.529fda06.css",
+    "static/js/main.79549bda.js"
+  ]
+}
