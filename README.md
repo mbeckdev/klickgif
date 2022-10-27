@@ -12,7 +12,7 @@ Animations are animal themed for now, maybe someday we'll add other topics (I'm 
 
 ## Contribute
 
-For anyone who wants to contribute. Everyone's welcome! Need an extra contribution or four to complete that hacktoberfest requirement? Add a new css animation or four. There's also some React that could use some help. See the Contributing guide in the Contributing.md file.
+For anyone who wants to contribute. Everyone's welcome! Need an extra contribution or four to complete that hacktoberfest requirement? Add a new css animation or four (or more! I don't think we're going to run out of ideas here). There's also some React that could use some help. See the Contributing guide in the Contributing.md file.
 
 Here's a [discord](https://discord.gg/Tg48qMGF5f) so we can troubleshoot pull requests and stuff.
 
