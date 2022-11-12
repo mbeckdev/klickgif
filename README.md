@@ -1,6 +1,6 @@
 # KlickGif
 
-A bunch of CSS animations and the ability to turn them into gifs
+A bunch of CSS animations and the ability to turn them into gifs.
 
 Check it out ([Here](https://mbeckdev.github.io/klickgif/))
 
